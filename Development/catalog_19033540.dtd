@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT store (storeDetail,songs)>
+
+<!ELEMENT storeDetail (name,location,phoneNumber+,website?,logo,email?,managerName)>
+
+<!ELEMENT songs (song)+>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST location postalCode CDATA #IMPLIED>
+
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ATTLIST phoneNumber type (Telephone|Mobile) #REQUIRED>
+
+<!ELEMENT website (#PCDATA)>
+
+<!ELEMENT logo EMPTY>
+
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT managerName (#PCDATA)>
+<!ATTLIST managerName title (Mr. | Mrs. | Ms.) #REQUIRED>
+
+<!ELEMENT song (genres,artists,director?,producers?,lyricists,album?,releaseYear,musicLabel?,length,price)>
+<!ATTLIST song
+    language NMTOKEN #REQUIRED
+    songTitle CDATA #REQUIRED>
+
+<!ELEMENT genres (genre)+>
+
+<!ELEMENT artists (artist)+>
+
+<!ELEMENT director (#PCDATA)>
+
+<!ELEMENT producers (producer)+>
+
+<!ELEMENT lyricists (lyricist)+>
+
+<!ELEMENT album (#PCDATA)>
+
+<!ELEMENT releaseYear (#PCDATA)>
+
+<!ELEMENT musicLabel (#PCDATA)>
+
+<!ELEMENT length (#PCDATA)>
+
+<!ELEMENT price (#PCDATA)>
+
+<!ELEMENT genre (#PCDATA)>
+
+<!ELEMENT artist (#PCDATA)>
+<!ATTLIST artist type NMTOKEN #REQUIRED>
+
+<!ELEMENT producer (#PCDATA)>
+
+<!ELEMENT lyricist (#PCDATA)>

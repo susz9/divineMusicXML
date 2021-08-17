@@ -1,0 +1,7 @@
+This coursework contains two folders, Development and Documentation.
+
+Development folders contains XML file that is to be loaded on the browser,
+DTD file for validation, similarly Schema file for validation and CSS file
+to style the XML document.
+
+Whereas, Documentation folder contains pdf file of the entire coursework.

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="store">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="storeDetail">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" />
+							<xs:element name="location">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="postalCode" use="optional"> 
+												<xs:simpleType>
+													<xs:restriction base="xs:unsignedShort">
+														<xs:pattern value="[0-9]{5}"/> <!--Defining pattern for postal code with 5 digits-->
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="phoneNumber" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:integer">
+											<xs:attribute name="type" use="required">
+												<xs:simpleType>
+													<xs:restriction base="xs:string"> <!--Defining restriction and enumeration for Phonenumber type as mobile or telephone-->
+														<xs:enumeration value="Telephone"/>
+														<xs:enumeration value="Mobile"/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="website" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="logo"/>
+							<xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="managerName">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="title" use="required">
+												<xs:simpleType>
+													<xs:restriction base="xs:string"> <!--Defining restriction and enumeration for Manager title as Mr./Mrs./Ms.-->
+														<xs:enumeration value="Mr."/>
+														<xs:enumeration value="Mrs."/>
+														<xs:enumeration value="Ms."/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="songs">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="song" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="genres">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="genre" maxOccurs="unbounded" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="artists">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="artist" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute name="type" use="required">
+																		<xs:simpleType>
+																			<xs:restriction base="xs:string"> <!--Defining restriction and enumeration for singer type-->
+																				<xs:enumeration value="Singer"/>
+																				<xs:enumeration value="Band"/>
+																				<xs:enumeration value="Rapper"/>
+																			</xs:restriction>
+																		</xs:simpleType>
+																	</xs:attribute>
+																</xs:extension> 
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="director" type="xs:string" minOccurs="0"/>
+										<xs:element name="producers" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="producer" type="xs:string" maxOccurs="unbounded"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="lyricists">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="lyricist" type="xs:string" maxOccurs="unbounded"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="album" minOccurs="0" type="xs:string"/>
+										<xs:element name="releaseYear">
+											<xs:simpleType>
+												<xs:restriction base="xs:unsignedShort">
+													<xs:pattern value="[0-9]{4}"/> <!--Defining pattern for song release year as 2019-->
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="musicLabel" type="xs:string" minOccurs="0" />
+										<xs:element name="length">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:pattern value="[0-9]{2}m:[0-9]{2}s"/> <!--Defining pattern for song length as 05m:33s-->
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="price" type="xs:string"/>
+									</xs:sequence>
+									<xs:attribute name="songTitle" type="xs:string" use="required"/>
+									<xs:attribute name="language" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

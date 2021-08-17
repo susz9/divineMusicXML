@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 1.5;
+    color: white;
+    display: block;
+}
+
+store{
+    background-image: url(doodle.png);
+    background-color: #5680E9;
+    background-attachment: fixed;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 1%;
+}
+
+storeDetail{
+    text-align: center;
+    background: linear-gradient(#8860D0,  transparent);
+}
+
+name{
+    margin-top: auto;
+    padding-top: 5%;
+    font-family: Gotham;
+    font-weight: lighter;
+    font-size: 70px;
+}
+
+location{
+    margin-top: -50%;
+    padding-top: 10%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+location::before{
+    content: icon;
+}
+location::after{
+    content: ' (Postal Code: 'attr(postalCode)')';
+    display: inline;
+}
+
+phoneNumber[type="Telephone"]::before{
+    content: "Telephone Number: ";
+}
+
+phoneNumber[type="Mobile"]::before{
+    content: "Mobile Number: ";
+}
+
+website{
+    text-decoration: underline;
+    color: rgb(0, 255, 42);
+}
+
+logo{
+    position: relative;
+    margin-top: -15%;
+    margin-left: 46%;
+    padding-top: -12%;
+    padding-bottom: 10%;
+    background-image: url(logo.png);
+    height: 80px;
+    width: 120px;
+    background-repeat: no-repeat;
+    display: block;
+    cursor: pointer;
+}
+
+email::before{
+    content: "E-mail: ";
+}
+
+managerName::before{
+    content: attr(title) ' ';
+}
+
+managerName::after{
+    content: " (Store Manager)";
+}
+
+managerName::after{
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    display: block;
+    content: "SONGS LIST";
+    letter-spacing: 5pt;
+}
+
+songs{
+    padding-left: 2%;
+    display:list-item;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin-top: -2%;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+song::before{
+    content: attr(songTitle);
+    font-weight: bold;
+    font-size:xx-large;
+    text-shadow: 2px 2px #8860D0;
+}
+
+song::after{
+    padding-top: 1%;
+    content: "Language: "attr(language);
+    font-weight: lighter;
+    font-size: medium;
+    letter-spacing: 1pt;
+    color: rgb(227, 227, 255);
+}
+
+song{
+    box-sizing: border-box;
+    width: 30%;
+    height: 430px;
+    border-radius: 30px;
+    transition: 0.4s ease-in-out;
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: auto 5px;
+    cursor: pointer;
+    background-color: #5AB9EA;
+    text-align: center;
+    padding-top: 2%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+song:hover{
+    transform: translateY(10px);
+    background-color: #8860D0;
+}
+
+genres::before{
+    content: "Genre: ";
+    letter-spacing: .5pt;
+}
+
+genre::after{
+    content: ",";
+}
+
+genres{
+    padding-top: 10px;
+    display: list-item;
+}
+
+genre{
+    display: inline-flex;
+    font-weight: bold;
+    font-size-adjust: ;
+}
+
+artists{
+    display: list-item;
+    padding: 5px 5px;
+}
+
+artist{
+    display: inline-flex;
+    font-weight: bold;
+    font-size: large;
+}
+
+artist::after{
+    content: ",";
+}
+
+artists::before{
+    content: "Artist: ";
+    letter-spacing: 1pt;
+}
+
+director::before{
+    content: "Director: ";
+    font-weight: normal;
+    letter-spacing: 1pt;
+}
+
+director{
+    font-weight: bold;
+}
+
+producers::before{
+    content: "Producer: ";
+    letter-spacing: 0.5pt;
+}
+
+producer{
+    display: inline-flex;
+    font-weight: bold;
+}
+
+producer::after{
+    content: ",";
+}
+
+lyricists::before{
+    content: "Lyricist: ";
+    letter-spacing: 1pt;
+}
+
+lyricist{
+    display: inline-flex;
+    font-weight: bold;
+}
+
+lyricist::after{
+    content: ",";
+}
+
+album::before{ 
+    content: "Album: ";
+    letter-spacing: 1pt;
+    font-weight: normal;
+}
+
+album{
+    font-weight: bold;
+}
+
+releaseYear::before{
+    content: "Release Year: ";
+    letter-spacing: 0.5pt;
+    font-weight: normal;
+}
+
+releaseYear{
+    font-weight: bold;
+}
+
+musicLabel::before{
+    content: "Music Label: ";
+    letter-spacing: 0.5pt;
+    font-weight: normal;
+}
+
+musicLabel{
+    font-weight: bold;
+}
+
+length::before{
+    content: "Duration: ";
+    letter-spacing: 0.5pt;
+    font-weight: normal;
+}
+
+length{
+    font-weight: bold;
+}
+
+price::before{
+    content: "Price: ";
+    letter-spacing: 0.5pt;
+    font-size: x-large;
+}
+
+price{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 30px;
+}

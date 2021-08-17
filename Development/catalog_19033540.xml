@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19033540.css"?>
+<!-- <!DOCTYPE store SYSTEM "catalog_19033540.dtd"> -->
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="catalog_19033540.xsd">
+<!-- <store> -->
+    <storeDetail>
+        <name>Divine Music Store</name>
+        <location postalCode="56600">Salakpur, Morang</location>
+        <phoneNumber type="Telephone">021545720</phoneNumber>
+        <phoneNumber type="Mobile">9819090917</phoneNumber>
+        <website>www.divinemusicstore.com.np</website>
+        <logo/>
+        <email>divinemusicstore@gmail.com</email>
+        <managerName title="Mr.">Susan Shrestha</managerName>
+    </storeDetail>
+
+    <songs>
+        <song songTitle="Sweet child O' mine" language="English">
+            <genres>
+                <genre>Hard Rock</genre>
+                <genre>Glam Metal</genre>
+            </genres>
+            <artists>
+                <artist type="Band">Guns N' Roses</artist>
+            </artists>
+            <director>Nigel Dick</director>
+            <producers>
+                <producer>Mike Clink</producer>
+            </producers>
+            <lyricists>
+                <lyricist>Guns N' Roses</lyricist>
+            </lyricists>
+            <album>Appetite for Destruction</album>
+            <releaseYear>1988</releaseYear>
+            <musicLabel>Geffen</musicLabel>
+            <length>05m:02s</length>
+            <price>Rs.900</price>
+        </song>
+
+        <song songTitle="लेकाली चोयाको डोको" language="Nepali">
+            <genres>
+                <genre>Folk</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">Ram Thapa</artist>
+            </artists>
+            <director>Sudan Sharma</director>
+            <producers>
+                <producer>Music Nepal</producer>
+            </producers>
+            <lyricists>
+                <lyricist>Sudan Sharma</lyricist>
+            </lyricists>
+            <album>Thokna Madal Thok</album>
+            <releaseYear>2000</releaseYear>
+            <musicLabel>Music Nepal</musicLabel>
+            <length>02m:55s</length>
+            <price>Rs.800</price>
+        </song>
+
+        <song songTitle="I Want to Break Free" language="English">
+            <genres>
+                <genre>Rock</genre>
+                <genre>Synth-Pop</genre>
+                <genre>Classic Rock</genre>
+            </genres>
+            <artists>
+                <artist type="Band">Queen</artist>
+            </artists>
+            <producers>
+                <producer>Queen</producer>
+                <producer>Reinhold Mack</producer>
+            </producers>
+            <lyricists>
+                <lyricist>John Deacon</lyricist>
+            </lyricists>
+            <album>The Works</album>
+            <releaseYear>1984</releaseYear>
+            <musicLabel>EMI(UK)</musicLabel>
+            <length>03m:19s</length>
+            <price>Rs.2000</price>
+        </song>
+
+        <song songTitle="Galbandi" language="Nepali">
+            <genres>
+                <genre>Folk</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">Prakash Saput</artist>
+                <artist type="Singer">Shanti Shree Pariyar</artist>
+            </artists>
+            <director>Prakash Saput</director>
+            <lyricists>
+                <lyricist>Prakash Saput</lyricist>
+            </lyricists>
+            <album>Bola Maya</album>
+            <releaseYear>2019</releaseYear>
+            <musicLabel>Bhaka Nepal Pvt. Ltd.</musicLabel>
+            <length>15m:34s</length>
+            <price>Rs.300</price>
+        </song>
+
+        <song songTitle="K Pais Nepali?" language="Nepali">
+            <genres>
+                <genre>Rock</genre>
+            </genres>
+            <artists>
+                <artist type="Band">The Shadows 'Nepal'</artist>
+            </artists>
+            <director>Rohit Shakya</director>
+            <producers>
+                <producer>Rohit Shakya</producer>
+            </producers>
+            <lyricists>
+                <lyricist>Swapnil Sharma</lyricist>
+                <lyricist>Amit Pradhan</lyricist>
+            </lyricists>
+            <releaseYear>2019</releaseYear>
+            <musicLabel>TuneCore</musicLabel>
+            <length>05m:13s</length>
+            <price>Rs.1000</price>
+        </song>
+
+        <song songTitle="All of Me" language="English">
+            <genres>
+                <genre>R&amp;B</genre>
+                <genre>Pop</genre>
+                <genre>Soul</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">John Legend</artist>
+            </artists>
+            <director>NABIL</director>
+            <producers>
+                <producer>Dave Tozer</producer>
+                <producer>John Legend</producer>
+            </producers>
+            <lyricists>
+                <lyricist>Toby Gad</lyricist>
+                <lyricist>John Legend</lyricist>
+            </lyricists>
+            <album>Alto Astral - Internacionals</album>
+            <releaseYear>2013</releaseYear>
+            <musicLabel>GOOD</musicLabel>
+            <length>04m:30s</length>
+            <price>Rs.500</price>
+        </song>
+
+        <song songTitle="Something" language="English">
+            <genres>    
+                <genre>Rock</genre>
+                <genre>Pop</genre>
+            </genres>
+            <artists>
+                <artist type="Band">The Beatles</artist>
+            </artists>
+            <producers>
+                <producer>George Martin</producer>
+            </producers>
+            <lyricists>
+                <lyricist>George Harrison</lyricist>
+            </lyricists>
+            <album>Abbey Road</album>
+            <releaseYear>1969</releaseYear>
+            <musicLabel>Apple</musicLabel>
+            <length>02m:59s</length>
+            <price>Rs.1500</price>
+        </song>
+
+        <song songTitle="Despacito" language="Spanish">
+            <genres>
+                <genre>Latin Pop</genre>
+                <genre>Reggaeton</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">Luis Fonsi</artist>
+                <artist type="Rapper">Daddy Yankee</artist>
+            </artists>
+            <producers>
+                <producer>Mauricio Rengifo</producer>
+                <producer>Andrés Torres</producer>
+            </producers>
+            <lyricists>
+                <lyricist>Lui Rodriguez</lyricist>
+                <lyricist>Erika Ender</lyricist>
+                <lyricist>Ramon Ayala</lyricist>
+            </lyricists>
+            <album>Vida</album>
+            <releaseYear>2017</releaseYear>
+            <musicLabel>Universal Latin</musicLabel>
+            <length>03m:47s</length>
+            <price>Rs.600</price>
+        </song>
+
+        <song songTitle="Waka Waka(This Time for Africa)" language="Spanish">
+            <genres> 
+                <genre>Afro Fusion</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">Shakira</artist>
+            </artists>
+            <director>Marcus Raboy</director>
+            <producers>
+                <producer>John Hill</producer>
+            </producers>
+            <lyricists>
+                <lyricist>John Hill</lyricist>
+                <lyricist>Shakira</lyricist>
+            </lyricists>
+            <album>Sale el Sol</album>
+            <releaseYear>2010</releaseYear>
+            <musicLabel>Epic</musicLabel>
+            <length>03m:22s</length>
+            <price>Rs.400</price>
+        </song>
+
+        <song songTitle="Tu Hai" language="Hindi">
+            <genres>
+                <genre>Bollywood</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">A.R. RAHMAN</artist>
+                <artist type="Singer">SANAH MOIDUTTY</artist>
+            </artists>
+            <director>A.R. RAHMAN</director>
+            <producers>
+                <producer>T-Series</producer>
+            </producers>
+            <lyricists>
+                <lyricist>JAVED AKHTAR</lyricist>
+            </lyricists>
+            <album>MOHENJO DARO</album>
+            <releaseYear>2016</releaseYear>
+            <length>03m:58s</length>
+            <price>Rs.100</price>
+        </song>
+
+        <song songTitle="Take Me Home, Country Roads" language="English">
+            <genres>
+                <genre>Country</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">John Denver</artist>
+            </artists>
+            <producers>
+                <producer>Milton Okun</producer>
+                <producer>Susan Ruskin</producer>
+            </producers>
+            <lyricists>  
+                <lyricist>Bill Danoff</lyricist>
+                <lyricist>Taffy Nivert</lyricist>
+                <lyricist>John Denver</lyricist>
+            </lyricists>
+            <album>Poems, Prayers and Promises</album>
+            <releaseYear>1971</releaseYear>
+            <musicLabel>RCA</musicLabel>
+            <length>03m:17s</length>
+            <price>Rs.1600</price>
+        </song>
+
+        
+        <song songTitle="Hit the Road Jack" language="English">
+            <genres>
+                <genre>Jazz</genre>
+                <genre>R&amp;B</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">Ray Charles</artist>
+            </artists>
+            <producers>
+                <producer>Sid Feller</producer>
+            </producers>
+            <lyricists>
+                <lyricist>Percy Mayfield</lyricist>
+            </lyricists>
+            <album>Ray Charles Greatest Hits</album>
+            <releaseYear>1962</releaseYear>
+            <musicLabel>ABC-Paramount</musicLabel>
+            <length>02m:00s</length>
+            <price>Rs.400</price>
+        </song>
+        
+        <song songTitle="Kathmandu Bazar" language="Nepali">
+            <genres>
+                <genre>Pop</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">Uday Raj Poudel</artist>
+            </artists>
+            <director>Sabin Karki</director>
+            <lyricists>
+                <lyricist>Sabin Ektaare</lyricist>
+            </lyricists>
+            <releaseYear>2021</releaseYear>
+            <length>05m:48s</length>
+            <price>Rs.1100</price>
+        </song>
+
+        <song songTitle="24K Magic" language="English">
+            <genres>
+                <genre>Funk</genre>
+                <genre>disco</genre>
+                <genre>R&amp;B</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">Bruno Mars</artist>
+            </artists>
+            <producers>
+                <producer>Shampoo Press &amp; Curl</producer>
+                <producer>The Stereotypes</producer>
+            </producers>
+            <lyricists>
+                <lyricist>Bruno Mars</lyricist>
+                <lyricist>Philip Lawrence</lyricist>
+                <lyricist>Christopher Brody Brown</lyricist>
+            </lyricists>
+            <album>24K Magic</album>
+            <releaseYear>2016</releaseYear>
+            <musicLabel>Atlantic</musicLabel>
+            <length>03m:46s</length>
+            <price>Rs.900</price>
+        </song>
+
+        <song songTitle="Mast Magan" language="Hindi">
+            <genres>
+                <genre>Soul</genre>
+            </genres>
+            <artists>
+                <artist type="Singer">Arijit Singh</artist>
+                <artist type="Singer">Chinmayi Sripada</artist>
+            </artists>
+            <director>Shankar Eshaan Loy</director>
+            <producers>
+                <producer>T-Series</producer>
+            </producers>
+            <lyricists>
+                <lyricist>Amitabh Bhattacharya</lyricist>
+            </lyricists>
+            <album>2 States</album>
+            <releaseYear>2014</releaseYear>
+            <musicLabel>T-Series</musicLabel>
+            <length>03m:43s</length>
+            <price>Rs.400</price>
+        </song>
+    </songs>
+</store>
